@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 gem 'axlsx'
 gemspec
 
+gem 'rake', '10.1.1'
 group :development, :test do
   gem 'sqlite3'
   gem 'haml',           '~> 3.1.1', :require => false
